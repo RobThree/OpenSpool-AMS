@@ -8,7 +8,7 @@ This repository contains the PCB design for the [OpenSpool](https://github.com/s
 
 You can use this board on top, or on the bottom of your ESP32. Depending on which side you solder the female (or male) sockets (or pinheaders) you can then use the other side to connect your NFC readers to. The pins are in the same order as the pins on the PN532 board so you should be able to use dupont wires 6-wide (without tearing the wires apart). The wires should then go straight from this board to the PN532 module.
 
-Note that the 'connectorblock' has an extra row of pins for 5 volts. You don't **need** to populate this. Howver, if for some reason your PN532 readers won't work you can try connecting the 3V3 wire to this 5V rail. Some PN532 reader modules apparently won't work on 3V3 (I haven't encountered them yet).
+Note that the 'connectorblock' has an extra row of pins for 5 volts. You don't **need** to populate this. However, if for some reason your PN532 readers won't work you can try connecting the 3V3 wire to this 5V rail. Some PN532 reader modules apparently won't work on 3V3 (I haven't encountered them yet).
 
 ## What you need
 
