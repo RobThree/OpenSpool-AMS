@@ -1097,7 +1097,7 @@
 		(path "/d84182a9-3967-42bb-b785-a1f485f8921d")
 		(sheetname "/")
 		(sheetfile "openspool-ams.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 1.27 0.635)
 			(end 1.27 -11.43)
@@ -1291,7 +1291,7 @@
 		(path "/2e9ddc15-9290-406b-b6f4-711933e01d9d")
 		(sheetname "/")
 		(sheetfile "openspool-ams.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 1.27 0.635)
 			(end 1.27 -11.43)
@@ -1485,7 +1485,7 @@
 		(path "/007fbd26-9839-4b1f-962f-225bcbb0aa42")
 		(sheetname "/")
 		(sheetfile "openspool-ams.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 1.27 0.635)
 			(end 1.27 -11.43)
@@ -1679,7 +1679,7 @@
 		(path "/f01ef51a-7a62-4892-abd8-1509eb668558")
 		(sheetname "/")
 		(sheetfile "openspool-ams.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 1.27 0.635)
 			(end 1.27 -11.43)
@@ -1873,7 +1873,7 @@
 		(path "/6e77baf0-6ad3-4c85-9317-38c1ec525691")
 		(sheetname "/")
 		(sheetfile "openspool-ams.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 1.27 0.635)
 			(end 1.27 -11.43)
@@ -2067,7 +2067,7 @@
 		(path "/51f9c918-b661-4538-9c1b-ae6090800326")
 		(sheetname "/")
 		(sheetfile "openspool-ams.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 1.27 0.635)
 			(end 1.27 -11.43)
@@ -2261,7 +2261,7 @@
 		(path "/88b9b185-8777-4d20-8402-e6bd625f0d99")
 		(sheetname "/")
 		(sheetfile "openspool-ams.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 1.27 0.635)
 			(end 1.27 -11.43)
@@ -2923,6 +2923,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "⇔"
+		(at 69.85 49.784 0)
+		(layer "F.SilkS")
+		(uuid "426b9cbf-df43-4b92-9f83-3d04d7c29b1c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "36"
 		(at 90.424 79.502 315)
 		(layer "F.SilkS")
@@ -3080,6 +3092,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "⇔"
+		(at 86.36 49.784 0)
+		(layer "F.SilkS")
+		(uuid "771fe415-47b5-47cb-8cf6-99d2a55dfe80")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "39"
 		(at 90.424 71.882 315)
 		(layer "F.SilkS")
@@ -3114,6 +3138,19 @@
 				(thickness 0.1)
 			)
 			(justify right top)
+		)
+	)
+	(gr_text "Modules connect this way"
+		(at 70.866 49.53 0)
+		(layer "F.SilkS")
+		(uuid "85858d78-8d31-4b9d-a0ec-75cebd099574")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "35"
@@ -3620,6 +3657,18 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "Modules connect this way"
+		(at 86.614 49.53 0)
+		(layer "B.SilkS")
+		(uuid "448d6fb5-d22c-441e-ab80-e304039873d5")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "3V3"
 		(at 67.818 50.038 315)
 		(layer "B.SilkS")
@@ -3666,6 +3715,18 @@
 				(thickness 0.1)
 			)
 			(justify right top mirror)
+		)
+	)
+	(gr_text "⇔"
+		(at 69.85 48.725 180)
+		(layer "B.SilkS")
+		(uuid "5489b6d3-f00d-4873-b2b9-250020f6af61")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(gr_text "RX"
@@ -4098,6 +4159,18 @@
 				(thickness 0.1)
 			)
 			(justify right top mirror)
+		)
+	)
+	(gr_text "⇔"
+		(at 86.36 48.725 180)
+		(layer "B.SilkS")
+		(uuid "d22b6258-bcfe-4d6d-b10e-a48907448410")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(gr_text "MOSI"
